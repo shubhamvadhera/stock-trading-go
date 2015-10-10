@@ -1,4 +1,4 @@
-#Virtual Stock Trading System
+#Virtual Stock Trading System - GOLANG
 
 This is a virtual stock trading system for whoever wants to learn how to invest in stocks.
 
