@@ -7,13 +7,13 @@ The system uses real-time pricing via Yahoo finance API and supports USD currenc
 Buying stocks
 Request
 “stockSymbolAndPercentage”: string (E.g. “GOOG:55%,YHOO:45%”)
-“budget” : float32
+“budget” : float64
 Response
 “tradeId”: number
-“stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
-“unvestedAmount”: float32
+“stocks”: string (E.g. “GOOG:51:$500.25”, “YHOO:252:$31.40”)
+“unvestedAmount”: float64
 
-Command: go run client.go buy "GOOG:50%,YHOO:50%" 5000
+Command: go run client.go buy "GOOG:55%,YHOO:45%" 50000
 
 Checking your portfolio (loss/gain)
 Request
